@@ -1,0 +1,582 @@
+@import url(reset.css);
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\000032}}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\000036}}
+h5 {
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000314}}
+header {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000317}}
+.header__signup {
+  background: #21c2f8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000320}}
+.header__web--link {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000322}}
+  .header__web--link a {
+    margin: 0 10px;
+    line-height: 56px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000327}}
+.header__register div {
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 13px;
+  margin: 10px 0;
+  font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000335}}
+.header__select--joinnow {
+  color: #a1b1bc !important;
+  background: #fff;
+  margin-left: 10px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000340}}
+.main__nav {
+  display: block;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000344}}
+.header__logo {
+  width: 22%;
+  padding: 32px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000348}}
+.header__nav {
+  width: 70%;
+  padding: 48px 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000352}}
+.header__nav li {
+  display: inline-block;
+  max-width: 70%;
+  padding-right: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000356}}
+  .header__nav li a {
+    color: #2c3e50; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000361}}
+.header__selector div {
+  display: inline-block;
+  padding: 36px 0;
+  text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000366}}
+.header__selector--shoppingCart {
+  margin-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000371}}
+.bx-wrapper {
+  border: none !important;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000375}}
+.slider__headingline {
+  padding: 100px 0;
+  display: block;
+  color: #1a1c27; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000379}}
+  .slider__headingline h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #1a1c27; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000384}}
+  .slider__headingline h3 {
+    font-size: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000387}}
+  .slider__headingline li {
+    margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000391}}
+.Home__slider--check {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  background: #fff;
+  font-size: 24px;
+  margin-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000399}}
+  .Home__slider--check i.fa.fa-check {
+    margin: -34px 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003103}}
+.slider {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003105}}
+  .slider button {
+    font-size: 16px;
+    padding: 24px 52px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 32px;
+    background: #1a1c27; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003113}}
+  .slider img {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003118}}
+.slider__item--container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 200px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003127}}
+.bx-pager.bx-default-pager {
+  position: absolute;
+  bottom: 20px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003134}}
+.getting {
+  width: 50%;
+  margin: 100px 0;
+  text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003138}}
+  .getting h2 {
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003141}}
+  .getting h5 {
+    margin: 30px 0 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003144}}
+  .getting button {
+    font-size: 16px;
+    padding: 19px 24px;
+    background: #a1b1bc;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: 900;
+    box-shadow: 0px 3px 0 0 #81919b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003154}}
+.home__introduce--service {
+  width: 47%;
+  margin: 100px 0;
+  margin-left: 3%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003158}}
+  .home__introduce--service .home__service--selector {
+    padding: 15px 0 15px 20px;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid  #a1b1bc;
+    margin-top: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003167}}
+.arrow__carrot {
+  border-left: 1px solid #c5c6c7;
+  margin: -16px 0;
+  padding: 7px 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003172}}
+.getting__note {
+  border: 1px solid #a1b1bc;
+  border-top: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003176}}
+.getting__note--image.fleft {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 20px 0 30px 20px;
+  max-width: 30%;
+  border: 1px solid #c5c6c7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003184}}
+.getting__note--text.fright {
+  max-width: 65%;
+  margin: 20px 10px 28px 0;
+  color: #a1b1bc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003191}}
+.amazing__works {
+  background: #a18b8b;
+  text-align: center;
+  padding-bottom: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003195}}
+  .amazing__works h2 {
+    padding: 99px 0 43px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003198}}
+  .amazing__works h5 {
+    font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003202}}
+.amazing__works__title {
+  max-width: 33.3333333%;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003206}}
+.amazing__works__title--header {
+  background: #fff;
+  text-align: left;
+  padding: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003214}}
+.whyWorkWithUs {
+  margin: 100px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003217}}
+.whyWorkWithUs__introduce {
+  width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003219}}
+  .whyWorkWithUs__introduce h2 {
+    font-weight: 300;
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003223}}
+  .whyWorkWithUs__introduce p {
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003226}}
+  .whyWorkWithUs__introduce button {
+    font-size: 16px;
+    padding: 19px 24px;
+    background: #a1b1bc;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 900;
+    box-shadow: 0px 3px 0 0 #81919b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003236}}
+.whyWorkWithUs__image {
+  margin-top: 20px;
+  max-width: 45%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003241}}
+.home__vote-item {
+  width: 20%;
+  float: left;
+  position: relative;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003247}}
+.home__vote-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  left: 0;
+  padding: 34px 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100 !important;
+  line-height: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003258}}
+  .home__vote-content span {
+    line-height: 2.7;
+    font-size: 14px;
+    font-weight: 900; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003265}}
+.objectiveOpinion {
+  text-align: center;
+  margin: 100px 0 50px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003269}}
+.objectiveOpinion__heading--selects {
+  width: 30%;
+  margin: 30px auto 36px auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003272}}
+  .objectiveOpinion__heading--selects .select__previous {
+    padding: 14px 25px;
+    border: 1px solid #fbfafa;
+    background: #fbfafa;
+    width: 35%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003278}}
+  .objectiveOpinion__heading--selects .select__next {
+    padding: 14px 25px;
+    border: 1px solid #fbfafa;
+    background: #fbfafa;
+    width: 35%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003285}}
+.objectiveOpinion__webDesigner--item {
+  max-width: 49%;
+  display: block;
+  border: 1px solid;
+  background: #ecf0f1;
+  margin-bottom: 30px;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003293}}
+.illustration {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 100px;
+  margin: 30px 20px 80px 30px;
+  max-width: 20%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003301}}
+.objectiveOpinion__webDesigner--information {
+  max-width: 70%;
+  padding-right: 20px;
+  text-align: left;
+  padding-top: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003308}}
+.famousBrand__item {
+  width: 15%;
+  float: left;
+  margin: 0 9px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003314}}
+.famousBrand {
+  max-width: 100%;
+  text-align: center;
+  margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003320}}
+.address {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 30px 0 100px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003329}}
+.theFoxDesign {
+  max-width: 52%;
+  margin-left: 30px;
+  margin-bottom: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003333}}
+  .theFoxDesign p {
+    line-height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003337}}
+.theFoxDesign__form {
+  max-width: 45%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003340}}
+.web__logo {
+  margin: 30px 0;
+  color: #000000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003343}}
+  .web__logo a {
+    padding-right: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003347}}
+.theFoxDesign__text {
+  margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003350}}
+.theFoxDesign__form input {
+  width: 100%;
+  border: solid 1px #dee6e6;
+  margin-bottom: 20px;
+  box-shadow: inset 0px 5px 5px 0 rgba(230, 230, 230, 0.3);
+  padding: 20px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003357}}
+.theFoxDesign__form textarea {
+  width: 100%;
+  border: solid 1px #dee6e6;
+  margin-bottom: 20px;
+  box-shadow: inset 0px 5px 5px 0 rgba(230, 230, 230, 0.3); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003363}}
+input[type="submit"] {
+  background: #a1b1bc;
+  box-shadow: 0px 3px 0 0 #81919b;
+  border: none;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003370}}
+.StandardBlogTitleHere__item {
+  float: left;
+  max-width: 20%;
+  position: relative;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003376}}
+.StandardBlogTitleHere__item--note {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003382}}
+  .StandardBlogTitleHere__item--note p {
+    color: white;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003388}}
+  .StandardBlogTitleHere__item--note span {
+    font-size: 14px;
+    color: white;
+    line-height: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003396}}
+.GetStrongerForYourWork {
+  position: relative;
+  text-align: center;
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003401}}
+.GetStrongerForYourWork__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003408}}
+  .GetStrongerForYourWork__content h2 {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003413}}
+  .GetStrongerForYourWork__content p {
+    color: white;
+    font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003417}}
+  .GetStrongerForYourWork__content a {
+    border: 2px solid #ffffff;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 30px;
+    display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003430}}
+.footer {
+  width: 100%;
+  text-align: center;
+  margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003435}}
+.footer__top {
+  background: #1a1c27;
+  padding: 100px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003438}}
+  .footer__top h3 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 900; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003443}}
+    .footer__top h3::before {
+      content: "";
+      width: 5px;
+      height: 18px;
+      background-color: #1abc9c;
+      display: inline-block;
+      margin-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003455}}
+.footer__item {
+  width: 22%;
+  float: left;
+  margin-right: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003460}}
+.footer__logo {
+  text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003462}}
+  .footer__logo p {
+    margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003467}}
+.footer__title {
+  font-size: 48px;
+  color: white;
+  margin-top: -24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003471}}
+  .footer__title p {
+    display: inline-block;
+    font-weight: 900;
+    color: #1abc9c;
+    font-size: 48px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003479}}
+.ResentPosts li {
+  color: #a1b1bc;
+  padding: 14px 0;
+  font-size: 14px;
+  display: inline-block;
+  border-bottom: 1px solid #a1b1bc;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003486}}
+  .ResentPosts li p {
+    display: inline;
+    text-align: right;
+    color: #a1b1bc;
+    font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003493}}
+li:last-child {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003496}}
+.ResentPosts ul {
+  margin-top: 54px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003500}}
+.RecentTweets__item .icon__twitter {
+  width: 24px;
+  height: 24px;
+  background: #a1b1bc;
+  border-radius: 24px;
+  max-width: 10%;
+  float: left;
+  margin-top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003509}}
+.RecentTweets__item .icon__twitter i {
+  margin: 4px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003512}}
+.RecentTweets__item .note {
+  float: right;
+  max-width: 85%;
+  color: #a1b1bc;
+  line-height: 1.71;
+  margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003519}}
+.RecentTweets__item p {
+  font-size: 12px;
+  color: #9fadb7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003525}}
+.featuredWorks {
+  margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003528}}
+.featuredWorks div {
+  float: left;
+  max-width: 30%;
+  margin-left: 8px;
+  margin-bottom: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003534}}
+.footer__web--logo {
+  float: right;
+  max-width: 40%;
+  padding: 28px 0;
+  color: #a1b1bc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003539}}
+  .footer__web--logo a {
+    padding-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003543}}
+.copyright {
+  background: #222533; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003546}}
+.copyright p {
+  padding: 28px 0;
+  font-size: 14px;
+  float: left;
+  max-width: 60%; }
+
+/*# sourceMappingURL=style.css.map */
