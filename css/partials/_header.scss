@@ -1,0 +1,58 @@
+
+//=======================HomePape========================//
+//header
+header {
+    display: block;
+}
+.header__signup {
+    background: #21c2f8;
+}
+.header__web--link {
+    color: #fff;
+    a {
+        margin: 0 10px;
+        line-height: 56px;
+    }
+}
+.header__register div {
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 13px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.header__select--joinnow {
+    color: #a1b1bc !important;
+    background: #fff;
+    margin-left: 10px !important;
+}
+.main__nav {
+    display: block;
+    width: 100%;
+}
+.header__logo {
+    width: 22%;
+    padding: 32px 0;
+}
+.header__nav {
+    width: 70%;
+    padding: 48px 0px;
+}
+.header__nav li {
+    display: inline-block;
+    max-width: 70%;
+    padding-right: 30px;
+    a {
+        color: #2c3e50;
+    }
+}
+
+.header__selector div {
+    display: inline-block;
+    padding: 36px 0;
+    text-align: right;
+}
+.header__selector--shoppingCart {
+    margin-left: 20px;
+}

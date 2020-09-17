@@ -1,32 +1,85 @@
-@import url(reset.css);
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\000032}}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: none; }
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none; }
+
+ul, ol {
+  list-style-type: none; }
+
+li, a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px; }
+
+a {
+  background-color: transparent;
+  font-size: 14px; }
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0; }
+
+button, input {
+  overflow: visible; }
+
+textarea {
+  overflow: auto; }
+
+h2 {
+  font-size: 36px;
+  color: #2c3e50; }
+
+p {
+  color: #a1b1bc;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: normal; }
+
+iframe {
+  width: 100%;
+  margin: auto; }
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\000036}}
 h5 {
   color: #2c3e50;
   font-weight: bold;
   font-size: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000314}}
 header {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000317}}
 .header__signup {
   background: #21c2f8; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000320}}
 .header__web--link {
   color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000322}}
   .header__web--link a {
     margin: 0 10px;
     line-height: 56px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000327}}
 .header__register div {
   display: inline-block;
   border: 1px solid #fff;
@@ -35,69 +88,162 @@ header {
   margin: 10px 0;
   font-size: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000335}}
 .header__select--joinnow {
   color: #a1b1bc !important;
   background: #fff;
   margin-left: 10px !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000340}}
 .main__nav {
   display: block;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000344}}
 .header__logo {
   width: 22%;
   padding: 32px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000348}}
 .header__nav {
   width: 70%;
   padding: 48px 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000352}}
 .header__nav li {
   display: inline-block;
   max-width: 70%;
   padding-right: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000356}}
   .header__nav li a {
     color: #2c3e50; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000361}}
 .header__selector div {
   display: inline-block;
   padding: 36px 0;
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000366}}
 .header__selector--shoppingCart {
   margin-left: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000371}}
+.footer {
+  width: 100%;
+  text-align: center;
+  margin: auto; }
+
+.footer__top {
+  background: #1a1c27;
+  padding: 100px 0; }
+  .footer__top h3 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 900; }
+    .footer__top h3::before {
+      content: "";
+      width: 5px;
+      height: 18px;
+      background-color: #1abc9c;
+      display: inline-block;
+      margin-right: 20px; }
+
+.footer__item {
+  width: 22%; }
+
+.footer__item.fleft {
+  margin-right: 47px; }
+
+.footer__logo {
+  text-align: left; }
+  .footer__logo p {
+    margin-bottom: 30px; }
+
+.footer__title {
+  font-size: 48px;
+  color: white;
+  margin-top: -24px; }
+  .footer__title p {
+    display: inline-block;
+    font-weight: 900;
+    color: #1abc9c;
+    font-size: 48px; }
+
+.ResentPosts li {
+  color: #a1b1bc;
+  padding: 14px 0;
+  font-size: 14px;
+  display: inline-block;
+  border-bottom: 1px solid #a1b1bc;
+  width: 100%; }
+  .ResentPosts li p {
+    display: inline;
+    text-align: right;
+    color: #a1b1bc;
+    font-size: 14px; }
+
+li:last-child {
+  border: none; }
+
+.ResentPosts ul {
+  margin-top: 54px; }
+
+.RecentTweets__item .icon__twitter {
+  width: 24px;
+  height: 24px;
+  background: #a1b1bc;
+  border-radius: 24px;
+  max-width: 10%;
+  float: left;
+  margin-top: 8px; }
+.RecentTweets__item .icon__twitter i {
+  margin: 4px 5px; }
+.RecentTweets__item .note {
+  float: right;
+  max-width: 85%;
+  color: #a1b1bc;
+  line-height: 1.71;
+  margin-bottom: 20px; }
+.RecentTweets__item p {
+  font-size: 12px;
+  color: #9fadb7; }
+
+.featuredWorks {
+  margin: auto; }
+
+.featuredWorks div {
+  max-width: 30%;
+  margin-left: 8px;
+  margin-bottom: 6px;
+  float: left; }
+
+.footer__web--logo {
+  float: right;
+  max-width: 40%;
+  padding: 28px 0;
+  color: #a1b1bc; }
+  .footer__web--logo a {
+    padding-right: 10px; }
+
+.copyright {
+  background: #222533; }
+
+.copyright p {
+  padding: 28px 0;
+  font-size: 14px;
+  float: left;
+  max-width: 60%; }
+
 .bx-wrapper {
   border: none !important;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000375}}
 .slider__headingline {
   padding: 100px 0;
   display: block;
   color: #1a1c27; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000379}}
   .slider__headingline h1 {
     font-size: 50px;
     font-weight: 900;
     color: #1a1c27; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000384}}
   .slider__headingline h3 {
     font-size: 26px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000387}}
   .slider__headingline li {
     margin-bottom: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000391}}
 .Home__slider--check {
   width: 30px;
   height: 30px;
@@ -106,14 +252,11 @@ header {
   background: #fff;
   font-size: 24px;
   margin-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\0000399}}
   .Home__slider--check i.fa.fa-check {
     margin: -34px 3px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003103}}
 .slider {
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003105}}
   .slider button {
     font-size: 16px;
     padding: 24px 52px;
@@ -121,11 +264,9 @@ header {
     color: #fff;
     margin-top: 32px;
     background: #1a1c27; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003113}}
   .slider img {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003118}}
 .slider__item--container {
   position: absolute;
   top: 0;
@@ -134,23 +275,18 @@ header {
   bottom: 0;
   margin: 200px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003127}}
 .bx-pager.bx-default-pager {
   position: absolute;
   bottom: 20px !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003134}}
 .getting {
   width: 50%;
   margin: 100px 0;
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003138}}
   .getting h2 {
     margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003141}}
   .getting h5 {
     margin: 30px 0 20px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003144}}
   .getting button {
     font-size: 16px;
     padding: 19px 24px;
@@ -160,12 +296,10 @@ header {
     font-weight: 900;
     box-shadow: 0px 3px 0 0 #81919b; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003154}}
 .home__introduce--service {
   width: 47%;
   margin: 100px 0;
   margin-left: 3%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003158}}
   .home__introduce--service .home__service--selector {
     padding: 15px 0 15px 20px;
     color: #2c3e50;
@@ -174,18 +308,15 @@ header {
     border: 1px solid  #a1b1bc;
     margin-top: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003167}}
 .arrow__carrot {
   border-left: 1px solid #c5c6c7;
   margin: -16px 0;
   padding: 7px 7px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003172}}
 .getting__note {
   border: 1px solid #a1b1bc;
   border-top: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003176}}
 .getting__note--image.fleft {
   width: 100px;
   height: 100px;
@@ -194,53 +325,42 @@ header {
   max-width: 30%;
   border: 1px solid #c5c6c7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003184}}
 .getting__note--text.fright {
   max-width: 65%;
   margin: 20px 10px 28px 0;
   color: #a1b1bc; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003191}}
 .amazing__works {
-  background: #a18b8b;
+  background: #ecf0f1;
   text-align: center;
   padding-bottom: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003195}}
   .amazing__works h2 {
     padding: 99px 0 43px 0;
     font-weight: 300; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003199}}
   .amazing__works h5 {
     font-size: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003203}}
 .amazing__works__title {
   max-width: 30%;
   float: left;
   margin-left: 30px;
   margin-bottom: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003209}}
 .amazing__works__title--header {
   background: #fff;
   text-align: left;
   padding: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003217}}
 .whyWorkWithUs {
   margin: 100px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003220}}
 .whyWorkWithUs__introduce {
   width: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003222}}
   .whyWorkWithUs__introduce h2 {
     font-weight: 300;
     margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003226}}
   .whyWorkWithUs__introduce p {
     margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003229}}
   .whyWorkWithUs__introduce button {
     font-size: 16px;
     padding: 19px 24px;
@@ -250,183 +370,193 @@ header {
     font-weight: 900;
     box-shadow: 0px 3px 0 0 #81919b; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003239}}
 .whyWorkWithUs__image {
   margin-top: 20px;
   max-width: 45%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003244}}
-.home__vote-item {
+.home__vote-contentodd {
   width: 20%;
+  text-align: center;
   float: left;
-  position: relative;
-  text-align: center; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003250}}
-.home__vote-content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 0;
-  left: 0;
-  padding: 34px 0;
+  background: #20caa8;
+  padding: 77px 0;
   color: #fff;
   font-size: 30px;
   font-weight: 100 !important;
   line-height: 0.5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003261}}
+  .home__vote-contentodd span {
+    line-height: 2.7;
+    font-size: 14px;
+    font-weight: bold; }
+
+.home__vote-content {
+  width: 20%;
+  text-align: center;
+  float: left;
+  background: #1ad5b0;
+  padding: 77px 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100 !important;
+  line-height: 0.5; }
   .home__vote-content span {
     line-height: 2.7;
     font-size: 14px;
-    font-weight: 900; }
+    font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003268}}
 .objectiveOpinion {
   text-align: center;
   margin: 100px 0 50px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003272}}
 .objectiveOpinion__heading--selects {
   width: 30%;
   margin: 30px auto 36px auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003275}}
   .objectiveOpinion__heading--selects .select__previous {
     padding: 14px 25px;
-    border: 1px solid #fbfafa;
+    border: 1px solid #e4e7e9;
     background: #fbfafa;
     width: 35%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003281}}
+    .objectiveOpinion__heading--selects .select__previous span {
+      margin-left: 45px; }
   .objectiveOpinion__heading--selects .select__next {
     padding: 14px 25px;
-    border: 1px solid #fbfafa;
+    border: 1px solid #e4e7e9;
     background: #fbfafa;
     width: 35%; }
+    .objectiveOpinion__heading--selects .select__next span {
+      margin-right: 45px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003288}}
 .objectiveOpinion__webDesigner--item {
   max-width: 46%;
   display: block;
-  border: 1px solid;
+  border: 1px solid #e4e7e9;
   background: #ecf0f1;
   margin-bottom: 30px;
   float: left;
   margin-left: 30px; }
+  .objectiveOpinion__webDesigner--item h4 {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: bold;
+    line-height: 1.33; }
+  .objectiveOpinion__webDesigner--item h6 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #a1b1bc; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003297}}
 .illustration {
   width: 100px;
   height: 100px;
-  border: 1px solid;
+  border: 1px solid #cccccc;
   border-radius: 100px;
   margin: 30px 20px 80px 30px;
   max-width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003305}}
+.illustration__one {
+  background-image: url("https://3o7uf91awcm62zbzqs3jrg2t-wpengine.netdna-ssl.com/wp-content/uploads/2014/12/person12.png");
+  background-size: 100% 100%; }
+
+.illustration__two {
+  background-image: url("https://3o7uf91awcm62zbzqs3jrg2t-wpengine.netdna-ssl.com/wp-content/uploads/2014/11/guy-022.jpg");
+  background-size: 100% 100%; }
+
+.illustration__three {
+  background-image: url("https://3o7uf91awcm62zbzqs3jrg2t-wpengine.netdna-ssl.com/wp-content/uploads/2014/12/person22.png");
+  background-size: 100% 100%; }
+
+.illustration__four {
+  background-image: url("https://3o7uf91awcm62zbzqs3jrg2t-wpengine.netdna-ssl.com/wp-content/uploads/2014/12/person32.png");
+  background-size: 100% 100%; }
+
 .objectiveOpinion__webDesigner--information {
   max-width: 65%;
   padding-right: 20px;
   text-align: left;
   padding-top: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003312}}
 .famousBrand__item {
   width: 15%;
   float: left;
   margin: 0 9px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003318}}
 .famousBrand {
   max-width: 100%;
   text-align: center;
   margin: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003324}}
 .address {
   width: 100%;
   display: block;
   text-align: center;
   margin: 30px 0 100px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003333}}
 .theFoxDesign {
   max-width: 52%;
   margin-left: 30px;
   margin-bottom: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003337}}
   .theFoxDesign p {
     line-height: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003341}}
 .theFoxDesign__form {
   max-width: 45%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003344}}
 .web__logo {
   margin: 30px 0;
   color: #000000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003347}}
   .web__logo a {
     padding-right: 24px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003351}}
 .theFoxDesign__text {
   margin-bottom: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003354}}
 .theFoxDesign__form input {
   width: 100%;
   border: solid 1px #dee6e6;
   margin-bottom: 20px;
   box-shadow: inset 0px 5px 5px 0 rgba(230, 230, 230, 0.3);
-  padding: 20px 0; }
+  padding: 20px 0;
+  padding-left: 20px;
+  box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003361}}
 .theFoxDesign__form textarea {
   width: 100%;
   border: solid 1px #dee6e6;
   margin-bottom: 20px;
   box-shadow: inset 0px 5px 5px 0 rgba(230, 230, 230, 0.3); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003367}}
 input[type="submit"] {
   background: #a1b1bc;
   box-shadow: 0px 3px 0 0 #81919b;
   border: none;
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003374}}
 .StandardBlogTitleHere__item {
   float: left;
   max-width: 20%;
   position: relative;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003380}}
 .StandardBlogTitleHere__item--note {
   position: absolute;
   bottom: 30px;
   left: 0;
   right: 0;
   margin: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003386}}
   .StandardBlogTitleHere__item--note p {
     color: white;
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     font-size: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003392}}
   .StandardBlogTitleHere__item--note span {
     font-size: 14px;
     color: white;
     line-height: 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003400}}
 .GetStrongerForYourWork {
   position: relative;
   text-align: center;
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003405}}
 .GetStrongerForYourWork__content {
   position: absolute;
   bottom: 0;
@@ -434,16 +564,13 @@ input[type="submit"] {
   right: 0;
   top: 0;
   margin: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003412}}
   .GetStrongerForYourWork__content h2 {
     color: white;
     margin-bottom: 20px;
     margin-top: 150px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003417}}
   .GetStrongerForYourWork__content p {
     color: white;
     font-size: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003421}}
   .GetStrongerForYourWork__content a {
     border: 2px solid #ffffff;
     padding: 20px;
@@ -454,133 +581,277 @@ input[type="submit"] {
     margin-top: 30px;
     display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003434}}
-.footer {
-  width: 100%;
-  text-align: center;
-  margin: auto; }
+.contact__big__title {
+  background-image: linear-gradient(to RIGHT, #1a1c27, #00cced); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003439}}
-.footer__top {
-  background: #1a1c27;
-  padding: 100px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003442}}
-  .footer__top h3 {
+.contact__title.fleft {
+  font-size: 30px;
+  color: #fff;
+  padding: 48px 0; }
+
+.breadcrumb {
+  color: #fff; }
+
+.breadcrumb li {
+  display: inline-block;
+  padding: 55px 24px;
+  color: #fff; }
+
+.contact__contact {
+  max-width: 100%;
+  margin-top: 60px;
+  margin-bottom: 100px; }
+  .contact__contact form {
+    max-width: 45%;
+    float: left;
+    margin-top: 46px; }
+    .contact__contact form input {
+      border: solid 1px #d6dde2;
+      width: 100%;
+      padding: 18px 0;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-sizing: border-box; }
+    .contact__contact form textarea {
+      border: solid 1px #d6dde2;
+      width: 100%;
+      padding: 18px 0;
+      margin-bottom: 50px; }
+    .contact__contact form label {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 2.4; }
+    .contact__contact form input[type="submit"] {
+      width: unset;
+      padding: 14px 14px;
+      color: #fff;
+      background: #1abc9c;
+      border-radius: 3px;
+      box-shadow: none;
+      margin-top: -20px; }
+
+.contact__infomation {
+  max-width: 50%; }
+  .contact__infomation h2 {
+    font-size: 30px;
+    color: #34495e;
+    margin-bottom: 20px;
+    margin-top: 46px; }
+  .contact__infomation h4 {
+    font-size: 14px;
+    color: #34495e;
+    margin-bottom: 18px; }
+  .contact__infomation p {
+    margin-bottom: 28px;
+    color: #a1b1bc; }
+  .contact__infomation h4.contact__infomation--business {
+    margin-top: 30px; }
+  .contact__infomation a {
+    color: #1abc9c; }
+
+.contact__footer-top div {
+  width: 23%; }
+  .contact__footer-top div p {
+    border-bottom: 1px solid #46515c;
+    padding-bottom: 20px; }
+  .contact__footer-top div p:last-child {
+    border: none; }
+  .contact__footer-top div h4 {
+    color: white;
+    font-size: 16px; }
+  .contact__footer-top div h5 {
+    margin-top: 20px;
     color: #fff;
-    margin-bottom: 50px;
-    font-size: 18px;
-    font-weight: 900; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003447}}
-    .footer__top h3::before {
-      content: "";
-      width: 5px;
-      height: 18px;
-      background-color: #1abc9c;
-      display: inline-block;
-      margin-right: 20px; }
+    font-size: 14px;
+    line-height: 1.7; }
+  .contact__footer-top div a {
+    display: block;
+    margin-top: 38px;
+    font-size: 14px;
+    color: #1abc9c;
+    font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003459}}
-.footer__item {
-  width: 22%;
-  float: left;
+.contact__footer-top div.fleft {
   margin-right: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003464}}
-.footer__logo {
-  text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003466}}
-  .footer__logo p {
-    margin-bottom: 30px; }
+.blog__header .header__signup {
+  background: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003471}}
-.footer__title {
-  font-size: 48px;
-  color: white;
-  margin-top: -24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003475}}
-  .footer__title p {
-    display: inline-block;
-    font-weight: 900;
-    color: #1abc9c;
-    font-size: 48px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003483}}
-.ResentPosts li {
-  color: #a1b1bc;
-  padding: 14px 0;
+.blog__language--select {
+  padding: 18px 0;
   font-size: 14px;
-  display: inline-block;
-  border-bottom: 1px solid #a1b1bc;
-  width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003490}}
-  .ResentPosts li p {
-    display: inline;
-    text-align: right;
-    color: #a1b1bc;
-    font-size: 14px; }
+  border: none;
+  outline: none;
+  color: #a1b1bc; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003497}}
-li:last-child {
+.header__web--link a {
+  color: #a1b1bc;
+  font-size: 14px;
+  padding-left: 0; }
+
+.blog__cart {
+  display: inline-block;
+  border: solid 1px #ecf0f1;
+  padding: 3px 7px;
+  margin-right: 20px; }
+  .blog__cart span {
+    color: #a1b1bc;
+    font-size: 13px;
+    font-weight: 900;
+    padding-left: 8px; }
+
+.main__nav {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
+
+.blog__big__title {
+  background: #fff;
+  border-bottom: 1px solid #ecf0f1;
+  display: block;
+  margin-top: 10px; }
+
+.blog__title.fleft {
+  font-size: 30px;
+  color: #2c3e50;
+  padding: 48px 0; }
+
+.breadcrumb {
+  color: #a1b1bc; }
+
+.breadcrumb li {
+  display: inline-block;
+  padding: 55px 24px;
+  color: #a1b1bc; }
+
+.blog__main {
+  margin-top: 100px;
+  background-color: #ecf0f1; }
+  .blog__main p {
+    color: #a1b1bc;
+    font-size: 14px;
+    padding: 20px 0 25px 0;
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 1px solid #ecf0f1; }
+  .blog__main h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 19px 0 0 0; }
+
+.blog__function {
+  font-size: 14px;
+  color: #a1b1bc;
+  padding: 17px 0 20px 0;
+  border-bottom: 1px solid #ecf0f1;
+  margin-bottom: 8px; }
+  .blog__function span {
+    margin-right: 10px; }
+  .blog__function i {
+    margin-right: 5px; }
+
+.blog__amazing-standard {
+  border: 1px solid #ecf0f1;
+  padding: 20px;
+  background: #fff; }
+  .blog__amazing-standard p {
+    border-bottom: none; }
+  .blog__amazing-standard .blog__function {
+    border-bottom: 1px solid #ecf0f1;
+    border-top: 1px solid #ecf0f1;
+    margin: 30px 0 8px 0;
+    display: inline-block; }
+  .blog__amazing-standard button {
+    padding: 14px;
+    background: #2c3e50;
+    border-radius: 4px; }
+  .blog__amazing-standard a {
+    color: #fff;
+    font-weight: 900; }
+
+.blog__main--fleft {
+  max-width: 46%;
+  border: 1px solid #ecf0f1;
+  padding: 20px; }
+
+.blog__main--fright {
+  max-width: 46%;
+  border: 1px solid #ecf0f1;
+  padding: 20px; }
+
+.blog__cool__quote {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ecf0f1; }
+  .blog__cool__quote p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 0 20px; }
+  .blog__cool__quote .blog__function {
+    margin-top: 30px;
+    border-top: 1px solid  #ecf0f1; }
+
+.blog__cool__quote--header {
+  background-image: url("https://thefoxwp.com/wp-content/uploads/2015/01/0612.jpg");
+  background-size: 100% 100%; }
+  .blog__cool__quote--header span {
+    padding: 13px 0;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 20px; }
+
+.blog__main__title p {
+  padding-bottom: 20px;
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003500}}
-.ResentPosts ul {
-  margin-top: 54px; }
+.blog__audio {
+  margin-top: 30px;
+  padding-top: 30px;
+  background: #fff;
+  padding: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003504}}
-.RecentTweets__item .icon__twitter {
-  width: 24px;
-  height: 24px;
-  background: #a1b1bc;
-  border-radius: 24px;
-  max-width: 10%;
-  float: left;
-  margin-top: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003513}}
-.RecentTweets__item .icon__twitter i {
-  margin: 4px 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003516}}
-.RecentTweets__item .note {
-  float: right;
-  max-width: 85%;
+.blog__youtube {
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px; }
+
+.slider__blog {
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px; }
+
+.blog__main--fright .slider__blog {
+  margin-top: 0; }
+.blog__main--fright .blog__amazing-standard {
+  margin-top: 30px; }
+  .blog__main--fright .blog__amazing-standard h2 {
+    padding-top: 0; }
+
+.blog__vimeo {
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px; }
+
+.blog__end__pape {
+  margin-bottom: 120px;
   color: #a1b1bc;
-  line-height: 1.71;
-  margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003523}}
-.RecentTweets__item p {
-  font-size: 12px;
-  color: #9fadb7; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003529}}
-.featuredWorks {
-  margin: auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003532}}
-.featuredWorks div {
-  float: left;
-  max-width: 30%;
-  margin-left: 8px;
-  margin-bottom: 6px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003538}}
-.footer__web--logo {
-  float: right;
-  max-width: 40%;
-  padding: 28px 0;
-  color: #a1b1bc; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003543}}
-  .footer__web--logo a {
-    padding-right: 10px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003547}}
-.copyright {
-  background: #222533; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/theFox\/css\/style\.scss}line{font-family:\00003550}}
-.copyright p {
-  padding: 28px 0;
   font-size: 14px;
-  float: left;
-  max-width: 60%; }
+  margin-top: 50px;
+  width: 100%;
+  display: inline-block;
+  padding: 0 20px; }
+  .blog__end__pape span a {
+    color: #1abc9c; }
+  .blog__end__pape i {
+    padding: 15px;
+    background: #222533;
+    margin-left: 7px;
+    border-radius: 4px; }
+
+.blog__end__pape--fright {
+  margin-right: 35px;
+  margin-top: -13px; }
 
 /*# sourceMappingURL=style.css.map */
