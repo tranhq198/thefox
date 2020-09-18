@@ -12,6 +12,11 @@
     outline: none;
     color: #a1b1bc;
 }
+.blog__language--select {
+    select {
+        color: #a1b1bc;
+    }
+}
 .header__web--link a {
     color: #a1b1bc;
     font-size: 14px;

@@ -32,6 +32,7 @@ li, a{
 a {
     background-color: transparent;
     font-size: 14px;
+    cursor: pointer;
 }
 button, input, optgroup, select, textarea {
   font-family: inherit;
@@ -70,4 +71,22 @@ h5 {
     color: #2c3e50;
     font-weight: bold;
     font-size: 15px;
+}
+input, button, textarea {
+    outline: none;
+}
+textarea {
+    padding: 20px;
+}
+
+i.fa.fa-bars {
+    background: #fff;
+    padding: 8px;
+    color: #a1b1bc;
+    font-size: 22px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+button {
+    cursor: pointer;
 }
