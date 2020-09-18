@@ -1,0 +1,8 @@
+@media(min-width:768px){
+    .search__item--fleft {
+      max-width: 340px;
+    }
+    .search__item--fright{
+      max-width: calc(100% - 360px);
+    }
+  }

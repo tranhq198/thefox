@@ -447,7 +447,7 @@ li:last-child {
 .illustration {
   width: 100px;
   height: 100px;
-  border: 1px solid #cccccc;
+  border: 3px solid #fff;
   border-radius: 100px;
   margin: 30px 20px 80px 30px;
   max-width: 20%; }
@@ -556,6 +556,8 @@ input[type="submit"] {
   position: relative;
   text-align: center;
   max-width: 100%; }
+  .GetStrongerForYourWork img {
+    width: 100%; }
 
 .GetStrongerForYourWork__content {
   position: absolute;
@@ -853,5 +855,95 @@ input[type="submit"] {
 .blog__end__pape--fright {
   margin-right: 35px;
   margin-top: -13px; }
+
+.search__big__title {
+  background: #21c2f8; }
+
+.search__title.fleft {
+  font-size: 30px;
+  color: #fff;
+  padding: 48px 0; }
+
+.breadcrumb {
+  color: #fff; }
+
+.breadcrumb li {
+  display: inline-block;
+  padding: 55px 24px;
+  color: #fff; }
+
+.search__box {
+  background-color: #222533;
+  color: #fff;
+  text-align: center; }
+
+.search__bar h3 {
+  font-size: 36px;
+  padding-top: 193px; }
+  .search__bar h3 span {
+    color: #15e5bc; }
+.search__bar p {
+  color: #a1b1bc;
+  line-height: 3; }
+.search__bar form {
+  margin: auto;
+  padding-bottom: 192px;
+  max-width: 70%;
+  padding-top: 15px; }
+.search__bar input[type="text"] {
+  padding: 30px 0 30px 30px;
+  color: #a1b1bc;
+  width: 70%;
+  margin: 0; }
+.search__bar input[type="submit"] {
+  padding: 30px;
+  border: none;
+  box-shadow: none;
+  background-color: #6328fc;
+  color: #fff;
+  width: 25%;
+  margin: 0; }
+
+.search__main {
+  background: #f9fafb;
+  padding-top: 100px; }
+
+.search__main__item {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #ecf0f1; }
+  .search__main__item p {
+    padding: 10px 0 20px 0; }
+  .search__main__item a {
+    padding: 8px 14px;
+    border: 1px solid #a1b1bc;
+    border-radius: 5px;
+    color: #2c3e50;
+    font-weight: 900; }
+
+.search__main__item--title h4 {
+  color: #2c3e50;
+  font-size: 30px; }
+.search__main__item--title p {
+  border-bottom: 1px solid #ecf0f1;
+  padding: 10px 0; }
+
+.search__select--tab {
+  padding: 50px 0 100px 0;
+  background-color: #f9fafb; }
+  .search__select--tab a {
+    font-size: 15px;
+    color: #a1a1a1;
+    padding: 10px;
+    border: 1px solid #a1b1bc;
+    border-radius: 5px; }
+
+@media (min-width: 768px) {
+  .search__item--fleft {
+    max-width: 340px; }
+
+  .search__item--fright {
+    max-width: calc(100% - 360px); } }
 
 /*# sourceMappingURL=style.css.map */
