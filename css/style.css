@@ -33,12 +33,15 @@ a {
   background-color: transparent;
   font-size: 14px;
   cursor: pointer; }
+  a:hover {
+    color: #2c3e50; }
 
 button, input, optgroup, select, textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
-  margin: 0; }
+  margin: 0;
+  box-sizing: border-box; }
 
 button, input {
   overflow: visible; }
@@ -245,9 +248,39 @@ li:last-child {
   float: left;
   max-width: 60%; }
 
+.home__header__signup {
+  background: #21c2f8; }
+  .home__header__signup .header__web--link a {
+    color: #fff; }
+    .home__header__signup .header__web--link a:hover {
+      color: #2c3e50; }
+
+.home__register a {
+  color: #fff;
+  font-weight: 900; }
+  .home__register a:hover {
+    color: #2c3e50; }
+.home__register .header__select--joinnow a {
+  color: #21c2f8;
+  font-weight: 900; }
+  .home__register .header__select--joinnow a:hover {
+    color: #2c3e50; }
+
+.header__nav li, .header__nav a:hover {
+  color: #20caa8; }
+
 .bx-wrapper {
   border: none !important;
   position: relative; }
+
+.slider__item input {
+  display: none; }
+.slider__item label {
+  cursor: pointer; }
+.slider__item i.fa.fa-check {
+  font-size: 15px;
+  padding: 6px;
+  padding-bottom: 21px; }
 
 .slider__headingline {
   padding: 100px 0;
@@ -281,7 +314,8 @@ li:last-child {
     font-weight: 900;
     color: #fff;
     margin-top: 32px;
-    background: #1a1c27; }
+    background: #1a1c27;
+    display: block; }
   .slider img {
     width: 100%; }
 
@@ -1265,6 +1299,282 @@ input[type="submit"] {
     position: absolute;
     margin: 16px -53px;
     cursor: pointer; }
+
+.about__banner {
+  background-image: url("https://3o7uf91awcm62zbzqs3jrg2t-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/titlebg1.jpg?id=3887");
+  padding-top: 100px; }
+
+.about__main h2 {
+  font-weight: normal;
+  padding-bottom: 30px; }
+.about__main span {
+  font-weight: bold;
+  font-size: 36px; }
+.about__main label {
+  color: #a1b1bc;
+  margin-left: 10px; }
+
+.about__content--img {
+  max-width: 60%; }
+
+.about__banner--content {
+  max-width: 35%;
+  font-size: 48px; }
+  .about__banner--content h2, .about__banner--content span {
+    color: #fff; }
+  .about__banner--content p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff !important;
+    padding-top: 10px; }
+  .about__banner--content a {
+    padding: 13px 30px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 900; }
+    .about__banner--content a i {
+      margin-right: 5px; }
+
+.about__us {
+  padding: 100px 0; }
+  .about__us p {
+    margin-bottom: 50px; }
+  .about__us a {
+    padding: 17px 30px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #2c3e50;
+    border-radius: 5px; }
+    .about__us a i {
+      margin-right: 10px; }
+
+.about__slide {
+  padding: 100px 0;
+  background-color: #f9fafb; }
+  .about__slide p {
+    padding-bottom: 20px; }
+
+.about__slide--text {
+  width: 45%; }
+
+.about__slide--image {
+  max-width: 100%;
+  width: 40%; }
+
+.about__out__mission {
+  background-color: #9dd04d;
+  padding: 100px 170px 40px 170px;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  line-height: 1.7; }
+  .about__out__mission h2, .about__out__mission span, .about__out__mission p {
+    color: #fff; }
+  .about__out__mission p {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 100px; }
+
+.about__theFox__history {
+  text-align: center; }
+  .about__theFox__history h2 {
+    color: #34495e;
+    margin-top: 100px; }
+
+.about__theFox__history--timeline {
+  max-width: 10%;
+  margin-left: 95px;
+  width: 10px;
+  height: 1597px;
+  border-radius: 2.5px;
+  background-image: linear-gradient(to top, #21c2f8, #27f5cc); }
+
+.about__theFox__history--right {
+  max-width: 45%; }
+
+.about__history--image {
+  max-width: 170px;
+  border: 9px solid #ebebeb;
+  padding: 2px;
+  position: relative;
+  display: inline-block;
+  height: auto;
+  border-radius: 50%; }
+  .about__history--image img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%; }
+
+.about__history--content {
+  max-width: 60%;
+  text-align: left; }
+  .about__history--content h4 {
+    font-size: 18px;
+    color: #2c3e50;
+    padding-bottom: 25px; }
+
+.about__theFox__history--left {
+  max-width: 42%;
+  margin-top: 200px; }
+  .about__theFox__history--left .about__theFox__history--content {
+    margin-bottom: 300px; }
+
+.about__theFox__history--right {
+  max-width: 42%; }
+  .about__theFox__history--right .about__theFox__history--content {
+    margin-top: 300px; }
+
+.about__timeline--year-one {
+  position: absolute;
+  padding: 15px 57px;
+  background-color: #fff;
+  color: #a1b1bc;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 100px -79px; }
+
+.about__timeline--year-two {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  position: absolute;
+  color: #2c3e50;
+  font-size: 24px;
+  font-weight: 900;
+  box-shadow: inset 0px 3px 10px 0 rgba(0, 0, 0, 0.42);
+  border: solid 5px #fff;
+  background-color: #fff;
+  margin: 545px -50px;
+  line-height: 100px; }
+
+.about__timeline--year-three {
+  position: absolute;
+  padding: 15px 57px;
+  background-color: #fff;
+  color: #a1b1bc;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 1068px -79px; }
+
+.about__customers {
+  background-image: url("https://3o7uf91awcm62zbzqs3jrg2t-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/brandbg2.jpg?id=3949)");
+  background-repeat: no-repeat; }
+
+.about__customers--logo {
+  max-width: 45%;
+  margin-top: 190px; }
+  .about__customers--logo .athletics {
+    margin-left: 40px; }
+  .about__customers--logo img {
+    max-width: 100%;
+    vertical-align: middle;
+    padding-right: 50px;
+    padding-bottom: 30px; }
+
+.about__slider {
+  max-width: 50%; }
+
+.about__customers__testimonial {
+  padding: 50px;
+  background-image: url("/images/iconBackground1.png") !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  .about__customers__testimonial p {
+    color: #fff; }
+
+.about__testimonial__text {
+  width: 70%; }
+
+.about__customers__testimonial--avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 130px;
+  border: 3px solid #fff;
+  background-image: url("https://3o7uf91awcm62zbzqs3jrg2t-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/testi1-250x250.jpg");
+  background-size: 100% 100%;
+  margin-bottom: 20px; }
+
+#about__customers--note {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 50px; }
+  #about__customers--note span {
+    font-size: 18px;
+    color: #fff; }
+
+.about__slider {
+  margin: 180px 0; }
+
+footer {
+  padding-top: 100px;
+  background-color: #1a1c27; }
+  footer h3, footer h4 {
+    color: #fff; }
+  footer h3 {
+    font-size: 18px;
+    margin-bottom: 40px; }
+  footer h4 {
+    font-size: 14px; }
+  footer p, footer span, footer a, footer li {
+    color: #758590; }
+
+.footer__logo {
+  max-width: 22%;
+  margin-right: 45px;
+  margin-top: 10px; }
+  .footer__logo .footer__title {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #a1b1bc; }
+    .footer__logo .footer__title span {
+      color: #fff;
+      font-weight: bold; }
+
+.Recent__posts {
+  max-width: 22%;
+  margin-right: 45px; }
+  .Recent__posts .item {
+    border-bottom: 1px solid #243240;
+    margin-bottom: 30px;
+    padding-bottom: 30px; }
+  .Recent__posts .item:last-child {
+    border-bottom: none; }
+  .Recent__posts img {
+    width: 100%; }
+  .Recent__posts .images {
+    float: left;
+    max-width: 20%; }
+  .Recent__posts .content {
+    float: right;
+    max-width: 75%; }
+
+.footer__tags {
+  max-width: 22%;
+  margin-right: 46px; }
+  .footer__tags ul {
+    padding-top: 35px; }
+  .footer__tags li {
+    list-style-type: none;
+    font-size: 14px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid #243240; }
+    .footer__tags li:last-child {
+      border-bottom: none; }
+  .footer__tags a {
+    padding: 3px 5px;
+    border: 1px solid #758590;
+    margin: 3px 3px;
+    display: inline-block; }
+
+.footer__contact-us {
+  max-width: 22%; }
+  .footer__contact-us div {
+    border-bottom: 1px solid #243240;
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
 
 @media (min-width: 768px) {
   .search__item--fleft {

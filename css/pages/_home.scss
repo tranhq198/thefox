@@ -1,8 +1,55 @@
+//home__header
+.home__header__signup {
+    background: #21c2f8;
+    .header__web--link a {
+        color: #fff;
+        &:hover {
+            color: #2c3e50;
+        }
+    }
+}
+.home__register {
+    a {
+        color: #fff;
+        font-weight: 900;
+        &:hover {
+            color: #2c3e50;
+        }
+    }
+    .header__select--joinnow a {
+        color: #21c2f8;
+        font-weight: 900;
+        &:hover {
+            color: #2c3e50;
+        }
+    }
+}
+.header__nav {
+    li,a:hover {
+        color: #20caa8;
+    }
+
+    
+}
+
 
 //slider
 .bx-wrapper {
     border: none !important;
     position: relative;
+}
+.slider__item {
+   input {
+       display: none;
+   }   
+   label {
+       cursor: pointer;
+   }  
+   i.fa.fa-check {
+    font-size: 15px;
+    padding: 6px;
+    padding-bottom: 21px;
+}
 }
 .slider__headingline {
     padding: 100px 0;
@@ -41,6 +88,7 @@
         color: #fff;
         margin-top: 32px;
         background: #1a1c27;
+        display: block;
     }
     img {
         width: 100%;
