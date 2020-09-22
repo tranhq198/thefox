@@ -49,6 +49,34 @@
         font-size: 48px;
     }
 }
+.backtotop {
+    background: #ffffff;
+    width: 52px;
+    height: 52px;
+    border-radius: 52px;
+    display: none;
+    position: fixed;
+    bottom: 43px;
+    right: 30px;
+    opacity: 0;
+    box-shadow: -5.9px 11.6px 40px 0 rgba(0, 0, 0, 0.2);
+    &:hover {
+        background: #c7ccd1;
+        transition-duration: 0.5s;
+    }
+    img {
+        margin: -13px 12px;
+        width: 40%;
+    }
+}
+.backtotop__fixed {
+    display: block;
+    opacity: 1;
+    right: 10px;
+    bottom: 80px;
+    width: 40px;
+    height: 40px;
+}
 
 .ResentPosts li {
     color:#a1b1bc;

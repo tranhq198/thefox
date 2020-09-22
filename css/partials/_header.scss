@@ -14,6 +14,9 @@ header {
         line-height: 56px;
     }
 }
+.menu__bars {
+    display: none;
+}
 .header__register div {
     display: inline-block;
     border: 1px solid #fff;
@@ -30,6 +33,25 @@ header {
 .main__nav {
     display: block;
     width: 100%;
+    z-index: 9999999;
+}
+.fixed__nav__menu {
+    position: fixed;
+    z-index: 9999999;
+    background: #fff;
+    top: 0;
+    .header__selector div {
+        padding: 25px 0;
+        transition-duration: 0.3s;
+    }
+    .header__nav {
+        padding: 30px 0;
+        transition-duration: 0.3s;
+    }
+    .header__logo {
+        padding: 14px 0;
+        transition-duration: 0.3s;
+    }
 }
 .header__logo {
     width: 22%;
@@ -55,4 +77,8 @@ header {
 }
 .header__selector--shoppingCart {
     margin-left: 20px;
+}
+
+.menu__bars {
+    margin-top: 10px;
 }

@@ -1,0 +1,49 @@
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .home__header__signup {
+        display: none;
+    }
+    .header__selector {
+        float: right;
+    }
+    .header__logo {
+        padding: 10px 0;
+    }
+    .header__selector div {
+        padding: 8px 0;
+    }
+    .header__selector img {
+        width: 50%;
+    }
+    .header__selector--shoppingCart {
+        margin-left: -10px;
+    }
+    .menu__bars {
+        display: block;
+    }
+    .menu__bars {
+        position: absolute;
+        right: 5px;
+        margin: 8px 0;
+    }
+    .menu__bars.fright i {
+        font-size: 70%;
+        border: 1px solid;
+        padding: 5px;
+    }
+    .header__selector {
+        margin-top: 4px;margin-right: 30px;
+    }
+    .fixed__nav__menu .header__selector div {
+        padding: 8px 0;
+    }
+    .fixed__nav__menu .header__logo {
+        padding: 10px 0;
+    }
+    
+}

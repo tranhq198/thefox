@@ -257,19 +257,19 @@ footer {
         font-size: 14px;
     }
     p, span, a, li {
-        color: #758590;
+        color: #a1b1bc;
     }
     background-color: #1a1c27;
 }
-.footer__logo {
-    max-width: 22%;
+.about__footer .footer__logo {
     margin-right: 45px;
     margin-top: 10px;
+    max-width: 22%;
     .footer__title {
         font-size: 36px;
         font-weight: normal;
-        margin-bottom: 20px;
         color: #a1b1bc;
+        margin-bottom: 20px;
         span {
             color: #fff;
             font-weight: bold;
